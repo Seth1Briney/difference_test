@@ -1,4 +1,4 @@
-# difference_test
+# sign_test
 Using Python to look at the statistical difference test as described in chapter 14 of Mathematical Statistics - 7th Edition - Mendenhall, Wackerly, Scheaffer
 
 The difference test takes the difference of two vector observations x, y of two random variables X, Y and creates a Binomial variable Z which is the count of pairwise observations where x>y. (or should it be pairwise observations in the cartesian product { (x_i, y_i) | x_i in x, y_i in y }?), I suppose the Cartesian product version would be superior especially for small sample size because by observations I mean iid, thus there is no significance to the ordering of x or y.
